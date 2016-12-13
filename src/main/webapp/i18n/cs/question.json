@@ -1,0 +1,27 @@
+{
+    "jhipstertestApp": {
+        "question" : {
+            "home": {
+                "title": "Questions",
+                "createLabel": "Vytvořit Question",
+                "createOrEditLabel": "Vytvořit nebo upravit Question",
+                "search": "Vyhledat Question"
+            },
+            "created": "Byl vytvořen potomek entity Question s identifikátorem {{ param }}",
+            "updated": "Potomek entity Question s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Question s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Question {{ id }}?"
+            },
+            "detail": {
+                "title": "Question"
+            },
+            "question": "Question",
+            "generalQuestion": "General Question",
+            "answer": "Answer",
+            "generalAnswer": "General Answer",
+            "questioner": "Questioner",
+            "answerer": "Answerer"
+        }
+    }
+}

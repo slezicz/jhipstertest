@@ -1,0 +1,49 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "questioner",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "login",
+            "ownerSide": true
+        },
+        {
+            "relationshipName": "answerer",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "question",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text",
+            "fieldValidateRules":[
+                "required"
+            ]
+        },
+        {
+            "fieldName": "generalQuestion",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "answer",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "generalAnswer",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20161213131228",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "question",
+    "pagination": "infinite-scroll"
+}
