@@ -1,0 +1,25 @@
+{
+    "jhipstertestApp": {
+        "comment" : {
+            "home": {
+                "title": "Comments",
+                "createLabel": "Vytvořit Comment",
+                "createOrEditLabel": "Vytvořit nebo upravit Comment",
+                "search": "Vyhledat Comment"
+            },
+            "created": "Byl vytvořen potomek entity Comment s identifikátorem {{ param }}",
+            "updated": "Potomek entity Comment s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Comment s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Comment {{ id }}?"
+            },
+            "detail": {
+                "title": "Comment"
+            },
+            "content": "Content",
+            "creationDate": "Creation Date",
+            "author": "Author",
+            "question": "Question"
+        }
+    }
+}
